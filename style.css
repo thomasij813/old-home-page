@@ -1,0 +1,176 @@
+body{
+	background-image: url(sources/crossword.png);
+	font-family: 'PT Sans', sans-serif;
+}
+
+p{
+	text-align: center;
+	color: #555;
+}
+
+a{
+	text-decoration: none;
+	color: #444;
+}
+
+.menu-link{
+	height: 32px;
+	width: 32px;
+}
+
+.usepp{
+	margin-top: -20px;
+}
+
+.usep{
+	font-size: 1em;
+	font-style: italic;
+}
+
+.usep:hover{
+	text-decoration: underline;
+}
+
+.thomas{
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.wrapper{
+	width: 100%;
+	margin: auto;
+}
+
+.title{
+	width: 100%;
+	margin: auto;
+}
+
+.social{
+	width: 300px;
+	margin: auto;
+}
+
+.iconUl{
+	width: 100%;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+.li{
+	display: inline-block;
+	display: inline;
+}
+
+.icon{
+	height: 24px;
+	width: 24px;
+}
+
+.zebra{
+	width: 120px;
+	height: auto;
+	height: auto;
+	border-radius: 100%;
+	display: block;
+	margin: 43px auto 0 auto;
+	-webkit-box-shadow: 0 8px 6px -6px #555;
+  -moz-box-shadow: 0 8px 6px -6px #555;
+  box-shadow: 0 8px 6px -6px #555;
+}
+
+.push{
+	position: relative;
+}
+
+.panel {
+  background: #2C3E50;
+  z-index: 9999;
+  position: fixed;
+  left: -15.625em; /*or width of your navigation panel*/
+  width: 15.625em; /*should match the above value*/
+}
+
+.panel ul {
+  border-top: 2px solid #34495D;
+  list-style: none;
+  padding: 0;
+}
+
+.panel a {
+  display: block;
+  border-bottom: 2px solid #34495D;
+  padding: 1em;
+  font-size: 1em;
+}
+
+.panel a:link,
+.panel a:visited {
+  color: #fff;
+}
+
+.panel a:hover,
+.panel a:active {
+  background: #25B89A;
+}
+
+.nav-icon {
+  margin-right: 6px;
+}
+
+.projects{
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.25em;
+	display: block;
+  border-bottom: 2px solid #34495D;
+  padding: 1em;
+  text-align: center;
+}
+
+.projects a:hover,
+.projects a:active {
+  background: #2C3E50;
+}
+
+.push{
+	max-width: 600px;
+	margin: auto;
+}
+
+@media (min-width: 600px) {
+
+  .thomas{
+  	font-size: 2em;
+  }
+
+  .usep{
+  	font-size: 1.5em
+  }
+
+  .icon{
+		height: 32px;
+		width: 32px;
+	}
+
+	.zebra{
+		width:200px;
+	}
+
+	.projects{
+		font-size: 1.5em;
+	}
+
+	.panel a{
+		font-size: 1.15em;
+	}
+
+}
+
+
+
+
+
+
+
